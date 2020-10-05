@@ -1,0 +1,22 @@
+{
+    "name": "omie/ratify",
+    "description": "sign or give formal consent to (a treaty, contract, or agreement), making it officially valid.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "omie",
+            "email": "info@rectorsol.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+          "Rectorsol\\Ratify\\": "src/"
+        }
+    },
+    "require": {}
+}
